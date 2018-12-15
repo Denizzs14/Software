@@ -1,0 +1,10 @@
+﻿Write a method called "reverseInteger" that takes a long integer (less than
+ the maximum allowed) *as an integer* and returns a new integer where all
+ digits are reversed.
+
+Example:
+	input: 14667049
+	output: 94976641
+
+It is not allowed to turn the input into a String or to use char. You have to
+ do mathematical operations.

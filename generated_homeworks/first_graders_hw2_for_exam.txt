@@ -1,0 +1,40 @@
+﻿
+
+write a method called "getFibonacciBetween" that takes two integer parameters and
+ a boolean as input.
+if the boolean input is false,
+	the method has to return an array with all integers in the Fibonacci
+	 sequence that are between the two integers provided as the parameter.
+if the boolean input iz true,
+	the method has to return an array with all integers in the Fibonacci
+	 sequence that are between two such integers that they are the Xth and
+	 Yth members of the Fibonacci sequence. (X and Y being the two integer
+	 inputs)
+
+(if the boolean is false, and if the input integers are in the Fib seq.,
+ then they should also be included in the array.)
+(the 1st integer is 0, the 2nd integer is 1, and so on. And the Xth and
+ Yth integers are included.)
+
+Example:
+	getFibonacciBetween(15,67, false)
+	returns [21, 34, 55]
+
+	getFibonacciBetween(4,9,true)
+	returns [2, 3, 5, 8, 13, 21]
+
+
+
+
+write a method called "sortTheSquaresFirst" that takes an array of integers as input.
+	returns a new array that is sorted from smallest to largest,
+	but the first elements of the array have to be the elements that are square
+	 numbers.
+	So what is required is that the square numbers will be sorted from smallest
+	 to largest first, then the non-square numbers will be sorted the same way.
+
+Example:
+	sortTheSquaresFirst([2, 17, 4, 9, 55, 5, 12, 1, 3, 34])
+	returns [1, 4, 9, 2, 3, 5, 12, 17, 34, 55]
+
+

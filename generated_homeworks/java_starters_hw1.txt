@@ -1,0 +1,47 @@
+﻿mathematical operations
+
+logical operations
+
+hello world
+
+--------
+ bunlar 3-4 saatini aşmamalı
+ ve birkaç deneme yap kendi kendine
+--------
+
+
+----
+
+sonra şu kodu çalıştır, true yerini false yapıp tekrar çalıştır
+
+///bunu main var ya onun içine atacaksın
+
+boolean bool = true;
+
+if (bool) {
+
+	System.out.println("yep");
+} else {
+
+	System.out.println("nope");
+
+}
+
+-----------
+
+
+
+Sonraki görevlerin şunları öğrenmek:
+
+
+Primitive data types
+
+Stack + heap memory
+
+String
+
+If, else if, else
+
+Switch
+
+For, while
