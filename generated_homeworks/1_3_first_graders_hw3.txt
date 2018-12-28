@@ -1,0 +1,60 @@
+﻿1- Write a program called "FileSorter" that takes inputs from a file -all the inputs are integers, but each input will be in a new line-. (The input file name is also an input the user will enter in the console)
+The First input will tell you how many integers you should have for this data set.
+The Second input will be either 1 or 2, nothing else.
+The rest of the inputs will be random integers.
+
+The input should be entered into an array.
+Then the array will be sorted from the smallest to the largest if the Second input is 1,
+otherwise it will be sorted from the largest to the smallest.
+
+Then, the output data will be saved into a new file, if the input file name is "ABCD.txt", the output file name should be "new_ABCD.txt".
+(BONUS points if the sorting is done with a method)
+
+Example:
+Enter a file name to read from: "file.txt"
+(file.txt has the below data)
+10
+2
+2
+5
+4
+7
+3
+7
+4
+8
+0
+7
+(the output file name will be "new_file.txt", and the data should be as below)
+8
+7
+7
+7
+5
+4
+4
+3
+2
+0
+
+
+
+
+
+2- (taken from: https://csacademy.com/contest/archive/task/pokemon-evolution/)
+Write a program called PokemonCalculator that takes a line (String).
+The String will be composed of 4 integers such as "5 10 2 1". We'll call it "N M X Y".
+N is the number of pokémon the user has,
+M is the number of pokémon candy bars the user has.
+X is the number of candy bars needed to evolve a pokémon,
+Y is the number of candy bars the user will get if they sell one pokémon.
+
+You can only evolve a pokémon once, and you can not sell an evolved pokémon.
+
+The program should calculate how many pokémon (maximum number) can be evolved in this setting.
+
+Example:
+####	N M X Y		output
+1	5 10 2 1	5
+2	3 10 4 2	2
+3	10 3 1 1	6

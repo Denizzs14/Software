@@ -1,0 +1,16 @@
+﻿1- Write a method called Power that takes 2 inputs, a and k (Both integers).
+The implementation should take and return the kth power of a (a^k).
+The implementation has to be recursive.
+
+
+2- Write a method called SortRec that takes an array of integers as an input
+ and one input which is the starting index. The method should sort the array
+ from smallest to the largest starting from the provided index.
+ The implementation has to be recursive.
+
+
+
+3- do first_graders_hw1_extension, but with recursion.
+
+
+4- do first_graders_hw1 question 3, but with recursion.

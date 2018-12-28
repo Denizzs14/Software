@@ -1,0 +1,25 @@
+﻿1- Ask the user to enter a number.
+ Print every single prime integer that is smaller than this number.
+ Print every single integer that is a member of the Fibonacci Series, but is smaller than this number.
+
+2- Ask the user to enter two separate numbers.
+ Calculate the Greatest Common Divisor and the Least Common Divisible of these two numbers in two separate methods (these methods should return the gcd or the lcd), and print the answers.
+
+3- Ask the user to enter a sentence, a word that exists in the sentence, and a new word.
+Your program should have a method that takes all these three arguments as inputs and changes every occurrence of the word that already exists to the new word.
+
+Example:
+inputs are:
+1) gozlerim gozlerini gozlerken gozlerinin gozlerimi gozlediğini gozledim.
+2) goz
+3) kalem
+The output is:
+kalemlerim kalemlerini kalemlerken kalemlerinin kalemlerimi kalemlediğini kalemledi.
+
+Example 2:
+inputs are:
+1) this is an example sentence.
+2) en
+3) wow
+The output is:
+this is an example swowtwowce.

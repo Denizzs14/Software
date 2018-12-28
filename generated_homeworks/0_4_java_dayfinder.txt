@@ -1,0 +1,14 @@
+﻿Write a program that asks for some inputs to the user.
+The program will take the first input as an integer.
+The second will be a string.
+
+
+The inputs will be from 1 to 31 and from January to December.
+
+The program will calculate what day it is, and print:
+"The day for the date 'INPUTS' is 'DATE'."
+
+For example, If the user inputs 17 and December, the output will be:
+"The day for the date 12 December 2018 is Monday."
+
+(Only do for 2018, no other years are necessary.)

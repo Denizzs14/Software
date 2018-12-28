@@ -1,6 +1,4 @@
-﻿
-
-write a method called "getFibonacciBetween" that takes two integer parameters and
+﻿1- Write a method called "getFibonacciBetween" that takes two integer parameters and
  a boolean as input.
 if the boolean input is false,
 	the method has to return an array with all integers in the Fibonacci
@@ -26,7 +24,7 @@ Example:
 
 
 
-write a method called "sortTheSquaresFirst" that takes an array of integers as input.
+2- Write a method called "sortTheSquaresFirst" that takes an array of integers as input.
 	returns a new array that is sorted from smallest to largest,
 	but the first elements of the array have to be the elements that are square
 	 numbers.
